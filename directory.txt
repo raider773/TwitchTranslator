@@ -1,0 +1,32 @@
+data
+    images
+    cropped
+    train
+        image
+        labels
+    eval
+        image
+        labels
+    test
+        image
+        labels
+
+conf
+    settings
+
+scrapping
+    images
+    labels
+
+utils
+   screenshots
+
+estimator
+    OCR
+    Translator
+
+scripts
+    scrap
+
+logs
+    logs.txt

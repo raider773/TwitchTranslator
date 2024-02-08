@@ -1,0 +1,7 @@
+https://guillaumejaume.github.io/FUNSD/
+
+https://www.selenium.dev/documentation/webdriver/
+
+https://docs.python.org/3/library/threading.html
+
+https://github.com/Delgan/loguru
