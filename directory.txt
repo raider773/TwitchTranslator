@@ -1,22 +1,17 @@
 data
     images
     cropped
-    train
-        image
-        labels
-    eval
-        image
-        labels
-    test
-        image
-        labels
+    text
+    box_labels    
+    text_labels
 
 conf
     settings
 
 scrapping
     images
-    labels
+    box
+    text
 
 utils
    screenshots
@@ -30,3 +25,13 @@ scripts
 
 logs
     logs.txt
+
+
+
+
+
+
+
+#scrapeo iamgenes
+#saco las boxes y el texto
+#cropeo imagen y ya tengo el texto del contorno, asi que es todo en un script. guardo imagen de texto con contorno y el texto del coso. 

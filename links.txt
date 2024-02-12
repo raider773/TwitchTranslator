@@ -5,3 +5,7 @@ https://www.selenium.dev/documentation/webdriver/
 https://docs.python.org/3/library/threading.html
 
 https://github.com/Delgan/loguru
+
+https://towardsdatascience.com/a-gentle-introduction-to-ocr-ee1469a201aa
+
+https://towardsdatascience.com/ocr-101-all-you-need-to-know-e6a5c5d5875b

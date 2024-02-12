@@ -44,8 +44,6 @@ def get_screenshots(url,region,original_folder,cropped_folder,interval,duration)
         
     driver.quit()
 
-
-
 def get_images():
 
     threads = []
