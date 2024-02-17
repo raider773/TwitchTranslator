@@ -3,6 +3,7 @@ data
     cropped
     text
     box_labels    
+    yolo_labels
     text_labels
 
 conf
@@ -11,6 +12,7 @@ conf
 scrapping
     images
     box
+    yolo
     text
 
 utils
