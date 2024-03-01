@@ -11,6 +11,7 @@ settings = Settings()
 logger.add(settings.logs_file, level="INFO") 
 
 def get_screenshots(url,region,original_folder,cropped_folder,interval,duration):   
+    """Take screenshots from web tab using selenium webdriver"""
 
     cropped_url = url.split("//")[1].split("/")[1]
     original_destination_folder = f"{original_folder}/{cropped_url}" 
@@ -45,6 +46,7 @@ def get_screenshots(url,region,original_folder,cropped_folder,interval,duration)
     driver.quit()
 
 def get_images():
+    """Get images from streams using threads"""
 
     threads = []
     for url in settings.urls:

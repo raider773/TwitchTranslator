@@ -1,6 +1,7 @@
 from os import listdir
 from loguru import logger
 import pickle
+import numpy as np
 import easyocr
 from utils.utils import create_folder_if_not_exists
 from conf.settings import Settings
@@ -25,7 +26,10 @@ def save_streamer_labels(streamer,batch_size,reader,folder):
         batch_result = reader.readtext_batched(batch)   
         logger.info(f"Saving Batch")
 
-        for image_index in range(len(batch)):
+        for image_index in range(len(batch)):                
+          
+            #ACA FIXEAS BORDES
+            
             logger.info(f"Saving {batch[image_index]}")
             with open(f"{folder}/{batch[image_index].split('/')[-1].strip('.png')}.pkl", "wb") as box_dictionary_labels:   
                 pickle.dump(batch_result[image_index], box_dictionary_labels)
@@ -44,3 +48,5 @@ def get_box_labels():
         create_folder_if_not_exists(folder)   
         result = save_streamer_labels(streamer,settings.box_batch_size,reader,folder)        
         logger.info(f"Successfully written results to {folder}/labels")    
+
+

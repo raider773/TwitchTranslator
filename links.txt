@@ -12,6 +12,8 @@ https://towardsdatascience.com/ocr-101-all-you-need-to-know-e6a5c5d5875b
 
 https://www.youtube.com/watch?v=ag3DLKsl2vk
 
+https://www.datacamp.com/blog/yolo-object-detection-explained
+
 
 
 
@@ -23,10 +25,12 @@ pone fotos de un chat vacio. el 10% hacelo vacio asi sabe que no hay objetos y a
 
 
 
+Event-Driven Architecture  and streaming architecture
+
+
 
 
 si las cajas estan muy juntas, ponelas como si fueran una
-
 
 
 
@@ -38,6 +42,8 @@ The fourth coordinate [18, 34] likely represents the bottom-left corner.
 
 
 
+cosas con @, comandos con !. esas cosas sacalas
+
 replying .... sacalo
 
 
@@ -47,6 +53,9 @@ replying .... sacalo
 algo:   sacalo
 
 
+el slow mode  y el emotes can be no se quedel fina lsacalo.    
+
+calcula la distancia que ocupa el coso pingueado y ese no entra (mejor aun. si dice pinned by, esa caja y la siguiente no la traducis)
 
 ver que hacer con emotes
 

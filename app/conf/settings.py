@@ -14,7 +14,7 @@ class Settings():
         self.box_labels_folder = "data/box"
 
         #image        
-        self.urls = ['https://www.twitch.tv/zackrawrr', 'https://www.twitch.tv/distortion2','https://www.twitch.tv/summit1g'] # Streams to use. For now only use EN streams
+        self.urls = ['https://www.twitch.tv/valorant_americas'] # Streams to use. For now only use EN streams
         self.region = (1325,200,490,1480) # region to take screenshot in selenium browser   
         self.interval = 10 # time between screenshots
         self.duration = 120 # total time taking screenshoots

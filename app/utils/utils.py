@@ -7,6 +7,7 @@ settings = Settings()
 logger.add(settings.logs_file, level="INFO") 
 
 def create_folder_if_not_exists(folder_path):
+    """Create folder given a path"""
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
         logger.info(f"Folder '{folder_path}' created")
